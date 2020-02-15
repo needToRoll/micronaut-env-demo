@@ -1,0 +1,5 @@
+micronaut:
+  application:
+    name: micronaut-env-demo
+envdemo:
+  greeting: ${MICRONAUT_ENVDEMO_GREETING}
