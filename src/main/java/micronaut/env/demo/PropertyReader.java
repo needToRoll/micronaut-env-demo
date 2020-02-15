@@ -14,5 +14,6 @@ public class PropertyReader {
     public void greetOnStartUp(StartupEvent event){
         String message = String.format("Micronaut says: %s from %s", propertyFromOsEnv, System.getProperty("os.name"));
         System.out.println(message);
+        System.exit(0);
     }
 }
